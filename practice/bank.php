@@ -11,7 +11,7 @@
 <body>
 
     <img alt='PHPiggy Bank Logo' src='https://s3.amazonaws.com/making-the-internet/php-piggy-bank-logo@2x.png' style='width:202px;'>
-
+    You have <?php echo $quarter; ?> quarters in your bank.
     <p>
         You have $<?php echo $total; ?> in your piggy bank.
     </p>
