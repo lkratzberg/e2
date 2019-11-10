@@ -433,16 +433,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.25.3",
+            "version": "2.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "d07636581795383e2fea2d711212d30f941f2039"
+                "reference": "e01ecc0b71168febb52ae1fdc1cfcc95428e604e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d07636581795383e2fea2d711212d30f941f2039",
-                "reference": "d07636581795383e2fea2d711212d30f941f2039",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e01ecc0b71168febb52ae1fdc1cfcc95428e604e",
+                "reference": "e01ecc0b71168febb52ae1fdc1cfcc95428e604e",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +496,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2019-10-20T11:05:44+00:00"
+            "time": "2019-10-21T21:32:25+00:00"
         },
         {
             "name": "philo/laravel-blade",
@@ -685,16 +685,16 @@
         },
         {
             "name": "susanbuck/e2core",
-            "version": "0.1.1",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/susanBuck/e2core.git",
-                "reference": "6eff0c615e09e211c8ca4fe14bf5011768add8c4"
+                "reference": "bdbaa1ef8b79cda6875d48a6ab20ffceaa5f9a48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/susanBuck/e2core/zipball/6eff0c615e09e211c8ca4fe14bf5011768add8c4",
-                "reference": "6eff0c615e09e211c8ca4fe14bf5011768add8c4",
+                "url": "https://api.github.com/repos/susanBuck/e2core/zipball/bdbaa1ef8b79cda6875d48a6ab20ffceaa5f9a48",
+                "reference": "bdbaa1ef8b79cda6875d48a6ab20ffceaa5f9a48",
                 "shasum": ""
             },
             "require": {
@@ -720,7 +720,7 @@
                 }
             ],
             "description": "Practice framework for CSCI E-2",
-            "time": "2019-10-28T23:26:29+00:00"
+            "time": "2019-11-05T07:47:01+00:00"
         },
         {
             "name": "symfony/debug",
