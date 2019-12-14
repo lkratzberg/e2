@@ -1,0 +1,37 @@
+/*----------------------------------------------------
+Master view
+-----------------------------------------------------*/
+main {
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.instructions {
+  text-align: left;
+}
+
+.bullets {
+  padding-left: 250px;
+  text-align: left;
+}
+
+header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+#logo {
+    /* Actual width is 636; displaying at half-size for retina screens */
+    width: 318px;
+}
+
+
+/*----------------------------------------------------
+Misc
+-----------------------------------------------------*/
+ul.error {
+    list-style-type: none;
+}
