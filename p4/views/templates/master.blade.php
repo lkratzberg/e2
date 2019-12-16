@@ -16,7 +16,7 @@
 <body>
   <header>
     <img id='logo' src='/images/headerpic.png' alt='{{$app->config('app.name')}} Logo'>
-    <h1>{{ 'Rock Paper Scissors' }}</h1>
+    <h1><a href='/'> {{ 'Rock Paper Scissors' }}</a></h1>
   </header>
 
   <main>

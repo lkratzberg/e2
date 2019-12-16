@@ -51,7 +51,7 @@ class ProductController extends Controller
       'content' => 'required|minLength:200',
     ]);
 
-    #If the above validation failes, the user is redirected back to the product page
+    #If the above validation fails, the user is redirected back to the product page
     #and none of the following code will execute
 
     #Extract data from the form submission

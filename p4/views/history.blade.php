@@ -15,7 +15,7 @@
 <h2>Round History</h2>
 <ul class="instructions">
 @foreach($games as $game)
-  <li><a href='/round-details?id={{ $game['id'] }}'>Game # {{ $game['id'] }}</li></a>
+  <li><a href='/round-details?id={{ $game['id'] }}'>Game # {{ $game['id'] }}</a></li>
 @endforeach
 </ul>
 

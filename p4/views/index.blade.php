@@ -13,29 +13,30 @@
   <li>If both players throw the same option, it is a tie.
 </ul>
 
-<div id='play-game'>
+<div id='play'>
 
   <h2>Let's Play!</h2>
 
   <form method='POST' id='play-game' action='/play-game/round'>
 
-  <h4>Select one of the options for your turn:</h4>
-    <input type='hidden' name='id' value='{{ $throws["id"] }}'>
-    <div class="bullets">
-      <input type='radio' class='form-control' value='rock' id='rock' name='playerOption'>
-      <label for='rock'>Rock</label>
-    </div>
-    <div class="bullets">
-      <input type='radio' class="form-control" value='paper' id='paper' name='playerOption'>
-      <label for='paper'>Paper</label>
-    </div>
-    <div class="bullets">
-      <input type='radio' class="form-control" value='scissors' id='scissors' name='playerOption'>
-      <label for='scissors'>Scissors</label>
-    </div>
+    <h4>Select one of the options for your turn:</h4>
+      <input type='hidden' name='id' value='{{ $throws["id"] }}'>
+      <div class="bullets">
+        <input type='radio' class='form-control' value='rock' id='rock' name='playerOption'>
+        <label for='rock'>Rock</label>
+      </div>
+      <div class="bullets">
+        <input type='radio' class="form-control" value='paper' id='paper' name='playerOption'>
+        <label for='paper'>Paper</label>
+      </div>
+      <div class="bullets">
+        <input type='radio' class="form-control" value='scissors' id='scissors' name='playerOption'>
+        <label for='scissors'>Scissors</label>
+      </div>
 
-  <button type='submit'>Throw!</button>
-</form>
+    <button type='submit'>Throw!</button>
+  </form>
+</div>
 
 @if( $message )
 <div class='alert alert-success'>
